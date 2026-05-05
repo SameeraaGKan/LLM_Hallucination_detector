@@ -1,0 +1,2 @@
+experiment_number,base_model,classifier_architecture,optimizer,learning_rate,loss_function,epochs,batch_size,max_token_length,train_test_split,labeling_model,labeling_threshold,dataset_size,train_size,val_size,hallucination_rate,final_val_accuracy,sample_confidence_score
+1,distilbert-base-uncased,Linear(768→768) → ReLU → Dropout(0.3) → Linear(768→2),AdamW,2e-05,CrossEntropyLoss,3,16,256,653/164,all-MiniLM-L6-v2,0.5,817,653,164,82.7%,0.878,0.7886
